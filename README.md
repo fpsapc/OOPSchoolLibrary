@@ -25,7 +25,7 @@
 
 # 📖 OOP school library <a name="about-project">OOP school library</a>
 
-**OOP school library** In this project, you will start building your school library app. In this initial step, you will implement the classes to represent students and teachers.
+**OOP school library** In this project, I use the Decorator design pattern to correct the names of people.
 
 ## 🛠 Built With <a name="built-with"></a>
 Ruby
@@ -40,7 +40,7 @@ Ruby
 
 ### Key Features <a name="key-features"></a>
 
-- **Implement classes and objects in Ruby.**
+- **Implement composition (as an example of the design pattern).**
 - **Implement encapsulation and inheritance with Ruby.**
 - **Run a program using the command line.**
 
@@ -77,7 +77,7 @@ bundle install
 To run the project, navigate to the project directory and execute the following command:
 
 ```sh
-  still just making structure
+  ruby test.rb
 ```
 
 ### Run tests
