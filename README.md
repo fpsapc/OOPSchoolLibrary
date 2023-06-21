@@ -121,6 +121,22 @@ Contributions, issues, and feature requests are welcome!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please follow me to find more project of this type in future.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank microverse to provide me required information to make this project so far.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
