@@ -10,8 +10,7 @@ class Student < Person
   end
 
   def add_student_to_classroom
-    classroom.add_student(self) unless
-    classroom.students.include?(self)
+    classroom.add_student(self) unless classroom.students.include?(self)
   end
 
   def play_hooky
