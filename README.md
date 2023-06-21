@@ -25,7 +25,7 @@
 
 # 📖 OOP school library <a name="about-project">OOP school library</a>
 
-**OOP school library** In this project, I use the Decorator design pattern to correct the names of people.
+**OOP school library** In this project, we are going to finish creating the remaining classes for our school library and create the associations between them.
 
 ## 🛠 Built With <a name="built-with"></a>
 Ruby
