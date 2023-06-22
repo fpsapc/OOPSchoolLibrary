@@ -84,12 +84,12 @@ class App
   def create_rental
     puts 'Select a book from the following list by number'
     @books_list.each_with_index { |book, index| puts "#{index}) Title: '#{book.title}', Author: #{book.author}" }
+    book_num = gets.chomp.to_i
     puts
     puts 'Select a person from the following list by number (not id)'
     @people_list.each_with_index do |person, index|
       puts "#{index}) [#{person.class}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
     end
-    book_num = gets.chomp.to_i
     person_num = gets.chomp.to_i
 
     print 'Date: '
@@ -104,15 +104,9 @@ class App
     id = gets.chomp.to_i
 
     puts 'Rentals:'
-    rentals_found = @rentals_list.select { |rental| rental.person.id == id }
-    if rentals_found.empty?
-      puts 'No rentals found for the given person ID.'
-    else
-      rentals_found.each do |rental|
-        puts "Date: #{rental.date}, Book \"#{rental.book.title}\" by #{rental.book.author}"
-      end
+    @rentals_list.each do |rental|
+      puts "Date: #{rental.date}, Book \"#{rental.book.title}\" by #{rental.book.author}" if rental.person.id == id
     end
-
     @parent.show_menu
   end
 
