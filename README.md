@@ -25,7 +25,7 @@
 
 # 📖 OOP school library <a name="about-project">OOP school library</a>
 
-**OOP school library** In this project, we are going to finish creating the remaining classes for our school library and create the associations between them.
+**OOP school library** In this project, I create a form of UI for school library app. This way it can be invoked as an executable and not something use in IRB exclusively.
 
 ## 🛠 Built With <a name="built-with"></a>
 Ruby
