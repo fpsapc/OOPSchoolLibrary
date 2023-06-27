@@ -106,6 +106,14 @@ Not available at the moment.
 - GitHub: [@githubhandle](https://github.com/fpsapc)
 - Twitter: [@twitterhandle](https://twitter.com/fpsapc)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/salman-ahmad1987 )
+  
+
+
+👤 **Tebe Tisloh**
+
+- GitHub: [@Booze33](https://github.com/Booze33)
+- Twitter: [@twitterhandle](https://twitter.com/Tebe95645832)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tebe-tisloh-847956225)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
