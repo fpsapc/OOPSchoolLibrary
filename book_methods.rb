@@ -1,4 +1,4 @@
-require_relative './book'
+require_relative 'book'
 
 class BookMethods
   attr_accessor :books_list
