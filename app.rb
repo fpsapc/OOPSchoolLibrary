@@ -134,5 +134,4 @@ class App
       send(method)
     end
   end
-
 end
