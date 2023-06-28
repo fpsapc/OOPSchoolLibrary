@@ -1,5 +1,5 @@
-require_relative '../Person/decorator.rb'
-require_relative '../Person/nameable.rb'
+require_relative '../Person/decorator'
+require_relative '../Person/nameable'
 
 describe Nameable do
   it 'raises NotImplementedError when correct_name is called' do

@@ -5,14 +5,14 @@ RSpec.describe Student do
   let(:age) { 13 }
   let(:classroom) { 'Maths' }
   let(:name) { 'John Doe' }
-  let(:student) { Student.new(age, classroom, name,) }
+  let(:student) { Student.new(age, classroom, name) }
 
   describe 'initailize' do
     it 'should create new student object' do
-        expect(student.age).to eq(age)
-        expect(student.classroom).to eq(classroom)
-        expect(student.name).to eq(name)
-        expect(student.rentals).to be_empty
+      expect(student.age).to eq(age)
+      expect(student.classroom).to eq(classroom)
+      expect(student.name).to eq(name)
+      expect(student.rentals).to be_empty
     end
   end
 
