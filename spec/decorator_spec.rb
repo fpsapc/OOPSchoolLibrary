@@ -18,30 +18,30 @@ describe Decorator do
   end
 end
 
-# describe CapitalizeDecorator do
-#   it 'capitalizes the name returned by the decorated object' do
-#     decorated_object = double('decorated_object')
-#     allow(decorated_object).to receive(:correct_name).and_return('john doe')
+describe CapitalizeDecorator do
+  it 'capitalizes the name returned by the decorated object' do
+    decorated_object = double('decorated_object')
+    allow(decorated_object).to receive(:correct_name).and_return('john doe')
 
-#     decorator = CapitalizeDecorator.new(decorated_object)
-#     expect(decorator.correct_name).to eq('John doe')
-#   end
-# end
+    decorator = CapitalizeDecorator.new(decorated_object)
+    expect(decorator.correct_name).to eq('John doe')
+  end
+end
 
-# describe TrimmerDecorator do
-#   it 'trims the name returned by the decorated object if it exceeds 10 characters' do
-#     decorated_object = double('decorated_object')
-#     allow(decorated_object).to receive(:correct_name).and_return('John Doe Smith')
+describe TrimmerDecorator do
+  it 'trims the name returned by the decorated object if it exceeds 10 characters' do
+    decorated_object = double('decorated_object')
+    allow(decorated_object).to receive(:correct_name).and_return('John Doe Smith')
 
-#     decorator = TrimmerDecorator.new(decorated_object)
-#     expect(decorator.correct_name).to eq('John Doe S')
-#   end
+    decorator = TrimmerDecorator.new(decorated_object)
+    expect(decorator.correct_name).to eq('John Doe S')
+  end
 
-#   it 'does not trim the name returned by the decorated object if it does not exceed 10 characters' do
-#     decorated_object = double('decorated_object')
-#     allow(decorated_object).to receive(:correct_name).and_return('John Doe')
+  it 'does not trim the name returned by the decorated object if it does not exceed 10 characters' do
+    decorated_object = double('decorated_object')
+    allow(decorated_object).to receive(:correct_name).and_return('John Doe')
 
-#     decorator = TrimmerDecorator.new(decorated_object)
-#     expect(decorator.correct_name).to eq('John Doe')
-#   end
-# end
+    decorator = TrimmerDecorator.new(decorated_object)
+    expect(decorator.correct_name).to eq('John Doe')
+  end
+end
